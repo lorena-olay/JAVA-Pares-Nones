@@ -26,13 +26,15 @@ public class A {
             if(!(0<num1)){
                 System.out.println("solo trabajamos con números positivos");
             }
+        }while(!(0 < num1));
+        do{
             System.out.println("Dame el segundo número");
             num2 = entradateclado.nextInt();
             if(!(0<num2)){
                 System.out.println("solo trabajamos con números positivos");
             }
-        }
-        while (!(0 < num1 || 0 < num2));
+        }while(!(0 < num2));
+        
         entero = num1 + num2;
         resto = entero % 2;
         if (resto == 0) {
