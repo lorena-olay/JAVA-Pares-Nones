@@ -23,6 +23,7 @@ public class B {
         int num1, num2, entero, resto;
         Random numAleatrio = new Random();
         // TODO code application logic here
+        System.out.println("Piensa el equipo que eliges, si pares o nones");
         //bucle del primer número
         do {
             System.out.println("Dame el primer número");

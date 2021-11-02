@@ -22,6 +22,7 @@ public class A {
         Scanner entradateclado = new Scanner(System.in);
         int num1, num2, entero, resto;
         // TODO code application logic here
+        System.out.println("Piensa el equipo que eliges, si pares o nones");
         //bucle del primer número
         do {
             System.out.println("Dame el primer número");
