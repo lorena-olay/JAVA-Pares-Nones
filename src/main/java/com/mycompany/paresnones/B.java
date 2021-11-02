@@ -1,15 +1,14 @@
-package com.mycompany.paresnones;
-
 /*
  * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
  * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Main.java to edit this template
  */
+package com.mycompany.paresnones;
 
 /**
  *
  * @author lorena
  */
-public class EJ01 {
+public class B {
 
     /**
      * @param args the command line arguments
