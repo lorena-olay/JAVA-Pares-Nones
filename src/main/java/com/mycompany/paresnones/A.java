@@ -30,6 +30,9 @@ public class A {
             System.out.println("1 - Pares");
             System.out.println("2 - Nones");
             equipo = entradateclado.nextInt();
+            if(!(equipo == 1 || equipo == 2)){
+                System.out.println("por favor, introduce una de las opciones");
+            }
         } while (!(equipo == 1 || equipo == 2));
         //elegimos equipos usuario 2
         do {
@@ -37,6 +40,9 @@ public class A {
             System.out.println("1 - Pares");
             System.out.println("2 - Nones");
             equipo1 = entradateclado.nextInt();
+            if(!(equipo1 == 1 || equipo1 == 2)){
+                System.out.println("por favor, introduce una de las opciones");
+            }
         } while (!(equipo1 == 1 || equipo1 == 2));
         }while(equipo == equipo1);
         //bucle del primer número
