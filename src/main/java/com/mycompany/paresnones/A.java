@@ -16,6 +16,8 @@ public class A {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
+        //repositorio
+        /*https://github.com/lorena-olay/JAVA-Pares-Nones*/
         //declaramos lo que necesitamos
         Scanner entradateclado = new Scanner(System.in);
         int num1, num2, entero, resto;
