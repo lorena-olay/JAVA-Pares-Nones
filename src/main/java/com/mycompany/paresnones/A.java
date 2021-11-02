@@ -23,8 +23,14 @@ public class A {
         {
             System.out.println("Dame el primer número");
             num1 = entradateclado.nextInt();
+            if(!(0<num1)){
+                System.out.println("solo trabajamos con números positivos");
+            }
             System.out.println("Dame el segundo número");
             num2 = entradateclado.nextInt();
+            if(!(0<num2)){
+                System.out.println("solo trabajamos con números positivos");
+            }
         }
         while (!(0 < num1 || 0 < num2));
         entero = num1 + num2;
